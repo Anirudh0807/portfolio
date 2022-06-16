@@ -1,0 +1,669 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,200;1,400;1,700&family=Ubuntu:wght@400;500;700&display=swap");
+
+body{
+    background-color: #4e54c8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.title{
+  color: rgb(241, 238, 22);
+  font-family: 'Poppins',sans-serif;
+  font-size: 50px;
+}
+
+.line{
+  position: absolute;
+  width:100%;
+  height:px;
+  border-top: 1px solid rgba(255,255,255,.25);
+ }
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/* navigation bar styling*/
+.navbar {
+  position:static;
+  width: 95%;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  justify-content: right;
+}
+
+.navbar .width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  color: #fff;
+  margin-left: 200px;
+  font-size: 40px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbar ul{
+  display: inline;
+  justify-content: right;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  justify-content: right;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.navbar ul li a:hover {
+  color: white;
+  background-color: #5091f9;
+  border-radius: 20px;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+/*Socials Styling*/
+.socials{
+  top: 20%;
+  width: 15%;
+  justify-content: center;
+  position: fixed;
+}
+
+.icons{
+  margin-left: 70px;
+  margin-top: 400px;
+  width: fit-content;
+}
+
+.whatsapp{
+  height: 60px;
+  width: 60px;
+}
+
+.wdiv{
+  width: 70px;
+  height: 70px;
+}
+
+
+.whatsapp:hover{
+  height: 70px;
+  width: 70px;
+  transition: ease-in;
+}
+
+.github{
+  height: 60px;
+  width: 60px;
+}
+
+.gdiv{
+  width: 70px;
+  height: 70px;
+}
+
+.github:hover{
+  height: 70px;
+  width: 70px;
+  transition: ease-in;
+}
+
+.linkedin{
+  height: 60px;
+  width: 60px;
+}
+
+.idiv{
+  width: 70px;
+  height: 70px;
+}
+
+.linkedin:hover{
+  height: 70px;
+  width: 70px;
+  transition: ease-in;
+}
+
+.line{
+  position: absolute;
+  width:100%;
+  height:px;
+  border-top: 1px solid rgba(255,255,255,.25);
+ }
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Home styling*/
+.home .text-1 {
+  font-size: 20px;
+  margin-top: 200px;
+  color: rgb(131, 190, 150);
+}
+
+.home .text-2 {
+  font-size: 50px;
+  color: rgb(189, 48, 48);
+}
+
+.home .text-3 {
+  font-size: 25px;
+  color: bisque;
+}
+
+.home {
+  overflow: hidden;
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  font-family: "Poppins", sans-serif;
+  margin: auto 0 auto 0;
+  
+}
+
+.home .age{
+  padding-top: 20px;
+  margin-top: -20px;
+  font-size: 60px;
+  color: aqua;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 5 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end) 0s,
+    blink-caret .75s step-end infinite 0s;
+  animation-delay: 0s;
+  animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+.age1{
+  font-size: 60px;
+  color: rgb(47, 255, 54);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*About Me Styling*/
+.about{
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  z-index: 2;
+  font-family: "Poppins", sans-serif;
+  margin: auto 0 auto 20px;
+  width: 70%;
+  margin-top: 650px;
+}
+
+.acontainer{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top: 40px;
+}
+
+.about .myself{
+  width: 40%;
+  float: left;
+}
+
+.about .aheading{
+  font-size: 60px;
+  color: #8eb9ee;
+}
+
+.about .heading1{
+  font-size: 40px;
+  color: rgb(248, 255, 109);
+  text-decoration: underline;
+}
+
+.heading2{
+  font-size: 40px;
+  color: rgb(248, 255, 109);
+  text-decoration: underline;
+}
+
+.about .heading3{
+  font-size: 40px;
+  color: rgb(248, 255, 109);
+  text-decoration: underline;
+}
+
+.about .info{
+  font-size: 25px;
+  color: rgb(47, 255, 189);
+}
+
+.about .extra{
+  margin-left: 40px;
+  width: 40%;
+  margin-right: 20px;
+  float: right;
+}
+
+.einfo{
+  font-size: 25px;
+  color: rgb(47, 255, 189);
+}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Skills and Intrests Styling*/
+
+.skills{
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  z-index: 2;
+  font-family: "Poppins", sans-serif;
+  margin: auto 0 auto 20px;
+  width: 80%;
+  height: max-content;
+  margin-top: 1700px;
+}
+
+.shead{
+  font-family: 'Poppins',sans-serif;
+  font-size: 50px;
+  color: #8eb9ee;
+}
+
+.prog{
+  font-size: 25px;
+  color: 	#264000;
+  text-decoration: underline;
+}
+
+.prog1{
+  margin-top: 50px;
+  font-size: 25px;
+  color: 	#264000;
+  text-decoration: underline;
+}
+
+a{
+	font-family: 'Poppins',sans-serif;
+	color: rgb(255, 255, 255);
+	margin: 50px 0 -80px;
+	text-align: center;
+	width: 500%;
+	font-size: 12px;
+	text-decoration: none;
+}
+#wrapper{
+	position: relative;
+	top: 80px;
+	width: 40%;
+}
+.center {
+  left: 25%;
+	-webkit-transform: translate( -50% );
+	-ms-transform: translate( -50% );
+	transform: translate( -50% );
+  float: left;
+}
+
+/*===== The CSS =====*/
+.progress{
+	width: 200px;
+	height: 280px;
+}
+.progress .track, .progress .fill{
+	fill: rgba(0, 0, 0, 0);
+	stroke-width: 2;
+	transform: rotate(90deg)translate(0px, -80px);
+}
+.progress .track{
+	stroke: rgb(56, 71, 83);
+}
+.progress .fill {
+	stroke: rgb(255, 255, 255);
+	stroke-dasharray: 219.99078369140625;
+	stroke-dashoffset: -219.99078369140625;
+	transition: stroke-dashoffset 3s;
+  transition-delay: 1000ms;
+}
+.progress.html .fill {
+	stroke: orange;
+}
+.progress.css .fill {
+	stroke: #fff;
+}
+.progress.js .fill {
+	stroke: peachpuff;
+}
+.progress.java .fill {
+	stroke: greenyellow;
+}
+.progress.py .fill {
+	stroke: blueviolet;
+}
+.progress .value, .progress .text {
+	font-family: 'Poppins',sans-serif;
+	fill: rgb(255, 255, 255);
+	text-anchor: middle;
+}
+.progress .text {
+	font-size: 12px;
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	cursor: default;
+}
+
+.tech{
+  float: right;
+  margin-top: 30px;
+  width: 40%;
+}
+
+.tech1{
+  font-family: 'Poppins',sans-serif;
+  font-size: 25px;
+  color: rgb(47, 255, 189);
+}
+
+.prog{
+  font-family: 'Poppins',sans-serif;
+  font-size: 35px;
+  color: rgb(248, 255, 109);
+}
+
+.prog1{
+  font-family: 'Poppins',sans-serif;
+  font-size: 35px;
+  color: rgb(248, 255, 109);
+}
+
+.downlink{
+  text-decoration: underline;
+  color: rgb(47, 255, 189);
+  font-size: 25px;
+}
+
+.downlink:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Projects Styling*/
+.projects{
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  z-index: 2;
+  font-family: "Poppins", sans-serif;
+  margin: auto 0 auto 20px;
+  width: 70%;
+  height: 1000px;
+  margin-top: 2700px;
+  margin-bottom: 200px;
+}
+
+.projects .pheading{
+  font-size: 60px;
+  margin-top: 100px;
+  color: #8eb9ee;
+}
+
+.projects .title{
+  font-family: 'Poppins',sans-serif;
+  margin-top: 50px;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.Pcontainer{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.proj1{
+  width: 30%;
+  float: left;
+  height: 100%;
+  margin-right: 50px;
+}
+
+.proj2{
+  width: 30%;
+  height: 100%;
+  margin-right: 50px;
+}
+
+.proj3{
+  width: 25%;
+  float: right;
+  height: 100%;
+}
+
+.pinfo{
+  font-family: 'Poppins',sans-serif;
+  font-size: 25px;
+  color: rgb(47, 255, 189);
+}
+
+.link{
+  font-family: 'Poppins',sans-serif;
+  font-size: 25px;
+  color: bisque;
+  padding: 20px;
+  border-radius: 20px;
+  align-items: flex-end;
+}
+
+.link:hover{
+  background-color: #002f4b;
+}
+/*--------------------------------------------------------------------------------------------------------*/
+.footer{
+  background-color: rgb(69, 69, 244);
+  float: right;
+  width: 100%;
+  height: 200px;
+  margin-top: 200%;
+  border: 2px solid;
+  opacity: 100;
+}
+
+.back{
+  width:fit-content;
+  height: 100%;
+  margin-left: 200px;
+  display: inline-block;
+}
+
+.text{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 30px;  
+  margin-right: 70px;
+  margin-top: 70px;
+  list-style: none;
+  display: inline-block;
+  justify-content: right;
+}
+
+.text a{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.text:hover{
+  background-color: #002f4b;
+}
+
+.mail{
+  font-family: 'Poppins',sans-serif;
+  font-size: 25px;
+}
+
+.mail a{
+  font-family: 'Poppins',sans-serif;
+  font-size: 25px;
+}
+
+/*Background*/
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+.circles .ip{
+    position: fixed;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles .ip:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles .ip:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles .ip:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles .ip:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles .ip:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles .ip:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles .ip:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles .ip:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles .ip:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles .ip:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}

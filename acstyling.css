@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,200;1,400;1,700&family=Ubuntu:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+*
+{
+margin:0;
+padding: 0;
+font-family: 'Poppins',sans-serif;
+box-sizing: border-box;
+}
+body {
+  background-color: #4e54c8;
+}
+
+/*Achievements Styling*/
+.achievements{
+  overflow: hidden;
+  color: #fff;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-family: "Poppins", sans-serif;
+  margin: auto 0 auto 0;
+  width: 70%;
+}
+  
+  .button {
+    justify-content: right;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size:35px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 30px;
+    float: right;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+  }
+
+  .alink{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .button .alink:hover{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+
+  .achievements .acheading{
+    
+    font-size: 60px;
+    color: #B0CDF1;
+  }
+  
+  .achievements .course{
+    width: 100%;
+  }
+  .ctitle{
+    font-family: 'Amatic Sc',sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 60px;
+    color:#B0CDF1;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing:3px;
+  }
+  /*Full stack Stying*/
+  .name{
+    font-family: 'Poppins',sans-serif;
+    margin-top: 25px;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  
+  .mode{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: dashed;
+    margin-left: 20px;
+  }
+  
+  .mode .mans{
+    text-decoration: none;
+  }
+  
+  .status{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: dashed;
+    margin-left: 20px;
+  }
+  
+  .sans{
+    text-decoration: none;
+  }
+  
+  .details{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .link{
+    font-family: 'Poppins',sans-serif;
+    font-size: 30px;
+    color: bisque;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .link:hover{
+    background-color: #112a50;
+  }
+
+   #particles-js{
+     height: 2024px;
+     width: 100%;
+     background:#081426;
+   }
